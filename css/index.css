@@ -1,0 +1,38 @@
+#container{
+	width: 1000px;
+	height: 550px;
+	border: 1px solid #000;
+	margin: 0 auto;
+}
+#ground{
+	width: 1000px;
+	height: 500px;
+	background: #ccc;
+	position: relative;
+}
+#control{
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+}
+#brand{
+	float: left;
+}
+#buttons{
+	float: right;
+}
+.block{
+	width: 20px;
+	height: 20px;
+	background: orange;
+	float: left;
+}
+.snake-block{
+	background: #f00;
+	position: absolute;
+	top: 60px;
+}
+.food-block{
+	background: green;
+	position: absolute;
+}
